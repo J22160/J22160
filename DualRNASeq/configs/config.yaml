@@ -1,0 +1,80 @@
+# ==================================================================================
+#               DualRNASeq Analysis Pipeline Configuration File
+# ==================================================================================
+# Author: Jash Trivedi
+# Date: 12/13/2024
+# Project: DualRNASeq Analysis
+#
+# Description:
+# This configuration file is the central resource for specifying parameters, 
+# directories, and references used in the DualRNASeq pipeline. The pipeline is 
+# designed for analyzing dual RNA sequencing data to investigate host-pathogen 
+# interactions. It supports paired-end RNA-Seq data and includes steps for read 
+# preprocessing, alignment, contamination screening, and gene quantification 
+# for both host and pathogen.
+#
+# Key Features:
+# - Centralized management of input directory.
+# - Specification of host and pathogen reference genomes and annotation files.
+# - Integration of Kraken2 for bacterial contamination screening.
+# - User-defined parameters for trimming, alignment, and gene quantification.
+#
+# Usage:
+# Update the fields below according to your project-specific requirements. Ensure 
+# that paths to data, references, and tools are correctly specified. This file 
+# integrates seamlessly with the Snakefile to execute the pipeline.
+# ==================================================================================
+
+# ========= Input directory ========================================================
+data_dir: "path/to/input/data"                       # Directory containing raw input data
+# ==================================================================================
+
+
+# ========= Trimming Parameters ====================================================
+fastp:
+    qualified_quality_phred: 33        # Minimum Phred quality for trimming
+    mean_quality: 30                   # Minimum average quality per read
+    length_required: 100               # Minimum read length after trimming
+
+# ==================================================================================
+
+
+# ============= Host and Pathogen Reference Genome and Annotation Files ============
+host_fasta: "path/to/host/reference/genome.fa"   # Host reference genome (FASTA)
+pathogen_fasta: "path/to/pathogen/reference/genome.fa"            # Pathogen reference genome (FASTA)
+
+host_annotation: "path/to/host/genome/annotation.gtf"  # Host genome annotation file (GTF)
+pathogen_annotation: "path/to/pathogen/annotation.gtf"  # Pathogen genome annotation file (GTF)
+
+# ==================================================================================
+
+
+# ======================= Alignment Parameters =====================================
+STAR_alignment_host:
+    mem_mb: 80000                      # Memory allocation for STAR alignment of host
+
+Bowtie2_alignment_pathogen:
+    mem_mb: 32000                      # Memory allocation for Bowtie2 alignment of pathogen
+
+# ==================================================================================
+
+
+# ======================= Kraken2 Reference Database ===============================
+kraken2:
+    database: "config/minikraken2_v2_8GB_201904_UPDATE"       # Path to Kraken2 database for contamination screening
+
+# ==================================================================================
+
+
+# ================ Gene Quantification Parameters ==================================
+htseq-count:
+    feature_type: "gene"               # Type of genomic feature for quantification (e.g., gene)
+    gtf_attribute: "gene_id"           # Attribute in GTF to use for grouping counts
+
+gene_quant_host:
+    mem_mb: 32000                      # Memory allocation for host gene quantification
+
+gene_quant_pathogen:
+    mem_mb: 32000                     # Memory allocation for pathogen gene quantification
+
+# ==================================================================================
