@@ -5,7 +5,6 @@
     width="100%"
   />
 </div>
-
 <!-- Typing SVG -->
 <div align="center">
   <br>
@@ -58,18 +57,15 @@
 
 </div>
 
+
+
+<div align="center">
+
 ## GitHub Statistics
 
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=J22160&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&ring_color=667eea" />
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=J22160&theme=tokyonight&hide_border=true&background=0D1117&ring=667eea&fire=764ba2&currStreakLabel=667eea" />
+<img width="79%" src="https://github-readme-streak-stats.herokuapp.com/?user=J22160&theme=tokyonight&hide_border=true&background=0D1117&ring=667eea&fire=764ba2&currStreakLabel=667eea" />
 </div>
 
-<div align="center">
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J22160&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8" />
-</div>
 
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=J22160&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" />
@@ -84,4 +80,5 @@
     width="100%"
   />
 </div>
+
 
