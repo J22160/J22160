@@ -1,6 +1,9 @@
 <!-- Header Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=667eea,764ba2&height=230&section=header&text=Jash%20%7C%20Bioinformatics%20Engineer&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20High-Performance%20Tools%20for%20Genomics%20%26%20Computational%20Biology&descSize=16&descAlignY=52&descAlign=50" width="100%"/>
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=230&section=header&text=Jash%20%7C%20Bioinformatics%20Engineer&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20High-Performance%20Tools%20for%20Genomics%20and%20Computational%20Biology&descSize=16&descAlignY=52&descAlign=50"
+    width="100%"
+  />
 </div>
 
 <!-- Typing SVG -->
@@ -76,7 +79,9 @@
 
 <!-- Footer -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=667eea,764ba2&height=120&section=footer" width="100%"/>
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer"
+    width="100%"
+  />
 </div>
-
 
