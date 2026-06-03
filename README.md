@@ -68,9 +68,8 @@
 
 
 <div align="center">
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=J22160&theme=merko)
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=J22160&theme=merko" alt="Most Commit Language" />
 </div>
-
 
 
 <!-- Footer -->
