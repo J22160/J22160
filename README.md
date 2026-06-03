@@ -36,6 +36,11 @@
 <br>
 
   [![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-667eea?style=for-the-badge)](https://github.com/J22160)
+
+  <div align="center">
+  <img src="https://komarev.com/ghpvc/?username=J22160&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+</div>
+
   
 </div>
 
