@@ -68,7 +68,7 @@
 
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=J22160&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" />
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=J22160&theme=merko)
 </div>
 
 
