@@ -18,11 +18,11 @@
 <div align="center">
   
   <a href="https://www.researchgate.net/profile/Jash-Trivedi/research">
-    <img src="https://img.shields.io/badge/Citations-15-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar Citations" />
+    <img src="https://img.shields.io/badge/Citations-18-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar Citations" />
     <img src="https://img.shields.io/badge/h--index-3-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar h-index" />
   </a>
   <a href="https://www.researchgate.net/profile/Jash-Trivedi/research">
-    <img src="https://img.shields.io/badge/Research_Items-6-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate Items" />
+    <img src="https://img.shields.io/badge/Research_Items-7-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate Items" />
     <img src="https://img.shields.io/badge/Reads-500+-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate Reads" />
   </a>
   <br><br>
