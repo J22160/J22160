@@ -18,7 +18,7 @@
 <div align="center">
   
   <a href="https://www.researchgate.net/profile/Jash-Trivedi/research">
-    <img src="https://img.shields.io/badge/Citations-18-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar Citations" />
+    <img src="https://img.shields.io/badge/Citations-19-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar Citations" />
     <img src="https://img.shields.io/badge/h--index-3-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar h-index" />
   </a>
   <a href="https://www.researchgate.net/profile/Jash-Trivedi/research">
